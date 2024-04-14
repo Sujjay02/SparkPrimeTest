@@ -11,8 +11,8 @@ async def main():
 
     await runloop.sleep_ms(2000)
 
-    await motor_pair.move_tank_for_time(motor_pair.PAIR_1, 1000, -1000, 650)
-    #1000, 50, 400, 600, 550, 600, 700, 
+    await motor_pair.move_tank_for_time(motor_pair.PAIR_1, 1000, -1000, 645)
+    #1000, 50, 400, 600, 550, 600, 700, 650, 645
 
 
     motor_pair.move(motor_pair.PAIR_1,0, velocity=1000)
